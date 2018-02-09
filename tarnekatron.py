@@ -5,5 +5,5 @@ class Tarnekatron:
         self.textgen = textgenrnn()
 
 
-    def generate(self):
-        return self.textgen.generate()
+    def generate(self, lines=1):
+        return self.textgen.generate(lines)
