@@ -7,6 +7,3 @@ class Tarnekatron:
 
     def generate(self):
         return self.textgen.generate()
-
-tarnekatron = Tarnekatron()
-print(tarnekatron.generate())
